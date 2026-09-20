@@ -1,0 +1,2 @@
+import {defineConfig} from 'vite';
+export default defineConfig({define:{'import.meta.env.VITE_SUPABASE_URL':JSON.stringify('https://awloyxboctvggdjnpdji.supabase.co'),'import.meta.env.VITE_SUPABASE_ANON_KEY':JSON.stringify('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhd2xveXhib2N0dmdnZGpucGRqaSIsInJvbGUiOiJhbm9uIiwiaWF0IjoxNzg5ODMwNzU2LCJleHAiOjIxMDU0MDY3NTZ9.vSuVhG4AiDRciH36qw5jGs-Zeql2_ReSMyGUtgiVNyc')}});
